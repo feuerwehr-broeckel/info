@@ -33,11 +33,17 @@ uv run zensical build --clean
 uv run ruff check .
 uv run ruff format .
 
+# CLI (Typer) — all project-specific commands
+uv run info --help
+
 # Generate FeuerON screenshots (requires FEUERON_USERNAME, FEUERON_PASSWORD env vars)
-uv run python -m scripts.feueron.generate
-uv run python -m scripts.feueron.generate --screenshots-only
-uv run python -m scripts.feueron.generate --annotations-only
-uv run python -m scripts.feueron.generate --frames-only
+uv run info screenshots generate    # full pipeline (capture → annotate → frame)
+uv run info screenshots capture     # only take screenshots
+uv run info screenshots annotate    # only apply annotations
+uv run info screenshots frame       # only apply browser frames
+
+# Data migration (Fox112 → FeuerON)
+uv run info migration address-check FOX112.xlsx ADRESSENLISTE.csv -o output.csv
 ```
 
 ## Architecture

@@ -1,16 +1,8 @@
-"""
-Main entry point for generating FeuerON documentation screenshots.
+"""FeuerON screenshot pipeline: capture, annotate, and frame.
 
-This script orchestrates:
-1. Taking screenshots using Playwright
-2. Applying annotations to create highlighted versions
-3. Wrapping screenshots in browser frames
-
-Usage:
-    uv run python -m scripts.feueron.generate [--screenshots-only] [--annotations-only] [--frames-only]
+Functions are called from the Typer CLI (``scripts/cli.py``).
 """
 
-import argparse
 from pathlib import Path
 
 from tools.annotation import annotate_screenshot
@@ -136,57 +128,3 @@ def apply_frames() -> list[Path]:
         print("\nNo screenshots found to frame.")
 
     return output_paths
-
-
-def main() -> None:
-    """Main entry point."""
-    parser = argparse.ArgumentParser(
-        description="Generate FeuerON documentation screenshots"
-    )
-    parser.add_argument(
-        "--screenshots-only",
-        action="store_true",
-        help="Only take screenshots, skip annotations and frames",
-    )
-    parser.add_argument(
-        "--annotations-only",
-        action="store_true",
-        help="Only apply annotations, skip taking screenshots and frames",
-    )
-    parser.add_argument(
-        "--frames-only",
-        action="store_true",
-        help="Only apply browser frames, skip taking screenshots and annotations",
-    )
-    args = parser.parse_args()
-
-    try:
-        if args.screenshots_only:
-            generate_screenshots()
-        elif args.annotations_only:
-            apply_annotations()
-        elif args.frames_only:
-            apply_frames()
-        else:
-            generate_screenshots()
-            apply_annotations()
-            apply_frames()
-
-        print("\n" + "=" * 60)
-        print("Done!")
-        print("=" * 60)
-
-    except ValueError as e:
-        print(f"Error: {e}")
-        print("\nUsage:")
-        print("  export FEUERON_USERNAME='your_username'")
-        print("  export FEUERON_PASSWORD='your_password'")
-        print("  export FEUERON_REGION_ID='156'  # Optional, defaults to 156")
-        print("  uv run python -m scripts.feueron.generate")
-    except Exception as e:
-        print(f"An error occurred: {e}")
-        raise
-
-
-if __name__ == "__main__":
-    main()

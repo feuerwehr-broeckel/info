@@ -46,17 +46,30 @@ export FEUERON_REGION_ID='156'  # Optional, Standard ist 156
 #### Screenshots erstellen
 
 ```bash
-# Alle Screenshots erstellen und Annotationen anwenden
-uv run python -m scripts.feueron.generate
+# Alle Screenshots erstellen, annotieren und rahmen
+uv run info screenshots generate
 
-# Nur Screenshots erstellen (ohne Annotationen)
-uv run python -m scripts.feueron.generate --screenshots-only
+# Nur Screenshots erstellen
+uv run info screenshots capture
 
 # Nur Annotationen auf bestehende Screenshots anwenden
-uv run python -m scripts.feueron.generate --annotations-only
+uv run info screenshots annotate
+
+# Nur Browser-Rahmen anwenden
+uv run info screenshots frame
 ```
 
-Die Screenshots werden in `docs/assets/feueron/screenshots/raw/` gespeichert, annotierte Versionen in `docs/assets/feueron/screenshots/annotated/`.
+Die Screenshots werden in `docs/assets/feueron/screenshots/raw/` gespeichert, annotierte Versionen in `docs/assets/feueron/screenshots/annotated/`, gerahmte Versionen in `docs/assets/feueron/screenshots/framed/`.
+
+## Datenmigration (Fox112 → FeuerON)
+
+### Adressen abgleichen
+
+Erstellt eine FeuerON-kompatible CSV-Datei, die Adressen aus einem Fox112-Excel-Export aktualisiert:
+
+```bash
+uv run info migration address-check Fox_Rahmen_XLS.php-5.xlsx Adressenliste.csv -o adressen_update.csv
+```
 
 ### Annotationen bearbeiten
 
@@ -110,7 +123,7 @@ ANNOTATIONS = {
 
 ## Projektstruktur
 
-```
+```text
 info/
 ├── docs/                           # Dokumentations-Inhalte (Markdown)
 │   ├── index.md
@@ -120,17 +133,22 @@ info/
 │       └── feueron/
 │           └── screenshots/
 │               ├── raw/            # Unbearbeitete Screenshots
-│               └── annotated/      # Annotierte Screenshots
+│               ├── annotated/      # Annotierte Screenshots
+│               └── framed/         # Screenshots mit Browser-Rahmen
 │
 ├── tools/                          # Wiederverwendbare Python-Tools
 │   ├── __init__.py
-│   └── annotation.py               # Marker & annotate_screenshot()
+│   ├── annotation.py               # Marker & annotate_screenshot()
+│   └── browserframe.py             # Browser-Rahmen-Kompositor
 │
 ├── scripts/                        # Anwendungsspezifische Skripte
+│   ├── cli.py                      # Typer CLI (uv run info ...)
 │   └── feueron/
 │       ├── screenshots.py          # Playwright-Automatisierung
 │       ├── annotations.py          # Marker-Definitionen
-│       └── generate.py             # Haupteinstiegspunkt
+│       ├── generate.py             # Screenshot-Pipeline-Funktionen
+│       ├── models/                 # FeuerON CSV-Import Pydantic-Modelle
+│       └── migration/              # Fox112 → FeuerON Datenmigration
 │
 ├── pyproject.toml
 ├── zensical.toml
