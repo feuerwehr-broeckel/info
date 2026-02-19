@@ -101,6 +101,7 @@ class PvAbt(FeuerONBase):
     # Required
     ABTEILUNG: Str80
     VON: FeuerONDate
+    BUNDESLAND: Str80
 
     # Optional
     BIS: FeuerONDate | None = None
@@ -316,11 +317,11 @@ class PvBeitrag(FeuerONBase):
     BETRAG: float
     TYP: Str80
     ART: BeitragArt
-    ZAHLUNGSWEISE: Zahlungsweise
     GULTIG_AB: FeuerONDate
     ERSTE_FAELLIGKEIT: FeuerONDate
 
     # Optional
+    ZAHLUNGSWEISE: Zahlungsweise | None = None
     NAECHSTE_ZAHLUNG: FeuerONDate | None = None
     MONAT1: float | None = None
     MONAT2: float | None = None

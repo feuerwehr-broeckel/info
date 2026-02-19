@@ -294,12 +294,21 @@ def _get_entries(
     return [value]
 
 
-def _serialize_value(value: Any) -> str:
-    """Convert a single field value to its CSV string representation."""
+def _serialize_value(value: Any) -> str | int | float:
+    """Convert a single field value to its CSV representation.
+
+    Returns int/float for numeric values so that csv.QUOTE_NONNUMERIC
+    writes them unquoted (FeuerON requires this for fields like
+    ZAHLUNGSWEISE and ART).
+    """
     if value is None:
         return ""
     if isinstance(value, bool):
-        return "1" if value else "0"
+        return 1 if value else 0
+    if isinstance(value, int):
+        return value
+    if isinstance(value, float):
+        return value
     return str(value)
 
 
@@ -360,9 +369,9 @@ def generate_csv(
                 headers.append(f"{table}.{n}.{csv_field}")
 
     # 4. Build rows
-    rows: list[list[str]] = []
+    rows: list[list[str | int | float]] = []
     for record in records:
-        row: list[str] = []
+        row: list[str | int | float] = []
         for field_name, model_cls, is_list in sub_table_info:
             count = max_counts.get(field_name, 0)
             csv_fields = used_fields.get(field_name, [])
@@ -382,10 +391,10 @@ def generate_csv(
     # 5. Write CSV
     if isinstance(output, Path):
         with open(output, "w", newline="", encoding=encoding) as f:
-            writer = csv.writer(f, delimiter=delimiter, quoting=csv.QUOTE_ALL)
+            writer = csv.writer(f, delimiter=delimiter, quoting=csv.QUOTE_NONNUMERIC)
             writer.writerow(headers)
             writer.writerows(rows)
     else:
-        writer = csv.writer(output, delimiter=delimiter, quoting=csv.QUOTE_ALL)
+        writer = csv.writer(output, delimiter=delimiter, quoting=csv.QUOTE_NONNUMERIC)
         writer.writerow(headers)
         writer.writerows(rows)
