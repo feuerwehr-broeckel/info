@@ -8,7 +8,7 @@ Diese Seite beschreibt das Erscheinungsbild und die Kommunikation der **Feuerweh
 
 !!! warning "Entwurf – noch nicht freigegeben"
 
-    Die unten eingetragenen Namensformen, das Standardlogo der Ortswehr sowie weißer Hintergrund und Roboto für interne Ankündigungen sind bestätigt. Die Beschreibung des Beispiellayouts ist als Interpretation gekennzeichnet. Alle Angaben in eckigen Klammern sind Platzhalter. Die übrigen Gestaltungsregeln und Formate sind Vorschläge und müssen vor der verbindlichen Nutzung geprüft und freigegeben werden. Fehlende Farben, Schriften oder Logos dürfen nicht als festgelegte Corporate Identity interpretiert werden.
+    Die unten eingetragenen Namensformen, das Standardlogo der Ortswehr, die beiden Favicon-Dateien, die Primärfarbe #DB1818 sowie weißer Hintergrund und Roboto für interne Ankündigungen sind bestätigt. Die Beschreibung des Beispiellayouts ist als Interpretation gekennzeichnet. Alle Angaben in eckigen Klammern sind Platzhalter. Die übrigen Gestaltungsregeln und Formate sind Vorschläge und müssen vor der verbindlichen Nutzung geprüft und freigegeben werden. Fehlende Farben, Schriften oder Logos dürfen nicht als festgelegte Corporate Identity interpretiert werden.
 
 ## Stand und Geltungsbereich
 
@@ -48,6 +48,8 @@ Diese Seite beschreibt das Erscheinungsbild und die Kommunikation der **Feuerweh
 | Vereinslogo / weitere Abteilungen | [Link und Vorschau ergänzen oder „nicht vorhanden“] | [Zuordnung ergänzen] |
 | Wappen der Samtgemeinde Flotwedel | [SVG-Datei](assets/corporate-identity/logos/flotwedel-wappen.svg) – Vorschau unten | [Einsatz in Beiträgen der Feuerwehr und Kombination mit dem Feuerwehrlogo festlegen] |
 | Wappen der Gemeinde Bröckel | [SVG-Datei](assets/corporate-identity/logos/broeckel-wappen.svg) – Vorschau unten | [Einsatz in Beiträgen der Feuerwehr und Kombination mit dem Feuerwehrlogo festlegen] |
+| Favicon inverse | [SVG-Datei](assets/corporate-identity/logos/favicon_inverse.svg) – Vorschau unten | Weiße Buchstaben „FB“ mit weißem Rahmen auf roter Fläche (#DB1818) |
+| Favicon weiß | [SVG-Datei](assets/corporate-identity/logos/favicon_white.svg) – Vorschau unten | Weiße Buchstaben „FB“ mit weißem Rahmen und transparentem Hintergrund; auf kontrastierendem Hintergrund einsetzen |
 
 ### Standardlogo der Ortswehr Bröckel
 
@@ -73,6 +75,24 @@ Die Originaldatei ist als lokale Kopie hinterlegt. Die Verwendung in Beiträgen 
 
 Die Originaldatei ist als lokale Kopie hinterlegt. Die Verwendung in Beiträgen der Feuerwehr, die Position und die Kombination mit weiteren Logos sind noch festzulegen. Die Farben des Wappens legen die Farbpalette der Feuerwehr nicht automatisch fest.
 
+### Favicon-Varianten
+
+Die beiden bereitgestellten SVG-Dateien sind unverändert hinterlegt. Beide haben eine Zeichenfläche von 16 × 16 und zeigen „FB“ in einem quadratischen Rahmen. Sie dienen als Favicon-Varianten; ihre Verwendung als zusätzliches Gestaltungselement auf Plakaten ist noch festzulegen.
+
+**Inverse Variante – weiße Darstellung auf roter Fläche:**
+
+![Favicon inverse: weißes FB mit weißem Rahmen auf rotem Hintergrund](assets/corporate-identity/logos/favicon_inverse.svg){ width="96" }
+
+[Originaldatei herunterladen (SVG)](assets/corporate-identity/logos/favicon_inverse.svg)
+
+**Weiße Variante – transparenter Hintergrund:**
+
+![Favicon weiß: weißes FB mit weißem Rahmen auf transparentem Hintergrund](assets/corporate-identity/logos/favicon_white.svg){ width="96" style="background-color: #DB1818; padding: 12px;" }
+
+[Originaldatei herunterladen (SVG)](assets/corporate-identity/logos/favicon_white.svg)
+
+Die rote Fläche hinter der weißen Vorschau dient nur der Sichtbarkeit auf dieser Seite; die SVG-Datei selbst hat einen transparenten Hintergrund.
+
 ### Regeln für die Verwendung
 
 Die folgenden Regeln sind Vorschläge zur Freigabe:
@@ -95,7 +115,7 @@ Hier ausschließlich die tatsächlich festgelegten Farbwerte eintragen. Bildschi
 
 | Rolle | Farbname | HEX | RGB | Einsatz |
 | --- | --- | --- | --- | --- |
-| Primärfarbe | [Name] | [#RRGGBB] | [R, G, B] | [z. B. Hauptflächen] |
+| Primärfarbe | Rot | #DB1818 | 219, 24, 24 | Primärfarbe der Corporate Identity; als Hintergrund in der inversen Favicon-Variante enthalten. [Weitere Einsatzregeln ergänzen] |
 | Sekundärfarbe | [Name] | [#RRGGBB] | [R, G, B] | [z. B. ergänzende Flächen] |
 | Akzentfarbe | [Name] | [#RRGGBB] | [R, G, B] | [z. B. Hervorhebungen] |
 | Hintergrund hell | [Name] | [#RRGGBB] | [R, G, B] | [Verwendung] |
@@ -106,7 +126,7 @@ Hier ausschließlich die tatsächlich festgelegten Farbwerte eintragen. Bildschi
 
 **Nicht zulässig:** [Farben, Kombinationen oder Verläufe ergänzen]
 
-**Interne Ankündigungen:** Weißer Hintergrund (`#FFFFFF`, RGB `255, 255, 255`) ist festgelegt. Im bereitgestellten Beispiel ist der Text schwarz; `#000000` (RGB `0, 0, 0`) dient als aus dem Beispiel abgeleiteter Arbeitswert. Die Farben des Originallogos bleiben erhalten. Diese Festlegung gilt für interne Ankündigungen; die allgemeine Farbpalette bleibt offen.
+**Interne Ankündigungen:** Weißer Hintergrund (`#FFFFFF`, RGB `255, 255, 255`) ist festgelegt. Im bereitgestellten Beispiel ist der Text schwarz; `#000000` (RGB `0, 0, 0`) dient als aus dem Beispiel abgeleiteter Arbeitswert. Die Farben des Originallogos bleiben erhalten. Diese Festlegung gilt für interne Ankündigungen; neben der bestätigten Primärfarbe bleiben die weiteren Farben der allgemeinen Palette offen.
 
 ## Schriftarten
 
@@ -209,7 +229,7 @@ Die gezeigte Partyszene ist eine Referenz für die Scheunenfete. Für Osterfeuer
 
 ### Weitere öffentliche Gestaltungsvarianten
 
-Die Beispiele zeigen unterschiedliche Ansätze je Veranstaltung. Ein bildfüllendes Foto, schmale Großbuchstaben oder ein Leuchteffekt sind keine allgemeine Pflicht für öffentliche Plakate. Die genaue Schriftfamilie und exakte Farbwerte dieser Varianten sind noch zu bestätigen.
+Die Beispiele zeigen unterschiedliche Ansätze je Veranstaltung. Ein bildfüllendes Foto, schmale Großbuchstaben oder ein Leuchteffekt sind keine allgemeine Pflicht für öffentliche Plakate. Die Primärfarbe ist #DB1818. Die genaue Schriftfamilie und die übrigen Farbwerte dieser Varianten sind noch zu bestätigen; Farbabweichungen in historischen Beispielen definieren keine zusätzlichen verbindlichen Farben.
 
 | Element | Laternenumzug 2025 | Osterfeuer 2026 |
 | --- | --- | --- |
