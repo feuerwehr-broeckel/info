@@ -8,7 +8,7 @@ Diese Seite beschreibt das Erscheinungsbild und die Kommunikation der **Feuerweh
 
 !!! warning "Entwurf – noch nicht freigegeben"
 
-    Die unten eingetragenen Namensformen, das Standardlogo der Ortswehr, die beiden Favicon-Dateien, die Primärfarbe #DB1818 sowie weißer Hintergrund und Roboto für interne Ankündigungen sind bestätigt. Die Beschreibung des Beispiellayouts ist als Interpretation gekennzeichnet. Alle Angaben in eckigen Klammern sind Platzhalter. Die übrigen Gestaltungsregeln und Formate sind Vorschläge und müssen vor der verbindlichen Nutzung geprüft und freigegeben werden. Fehlende Farben, Schriften oder Logos dürfen nicht als festgelegte Corporate Identity interpretiert werden.
+    Die unten eingetragenen Namensformen, das Wappen der Ortswehr, das digitale Logo in Open Sans Extra Bold, die beiden Favicon-Dateien, die Primärfarbe #DB1818 sowie weißer Hintergrund und Roboto für interne Ankündigungen sind bestätigt. Die Beschreibung des Beispiellayouts ist als Interpretation gekennzeichnet. Alle Angaben in eckigen Klammern sind Platzhalter. Die übrigen Gestaltungsregeln und Formate sind Vorschläge und müssen vor der verbindlichen Nutzung geprüft und freigegeben werden. Fehlende Farben, Schriften oder Logos dürfen nicht als festgelegte Corporate Identity interpretiert werden.
 
 ## Stand und Geltungsbereich
 
@@ -36,14 +36,16 @@ Diese Seite beschreibt das Erscheinungsbild und die Kommunikation der **Feuerweh
 | Ansprache | [du / ihr / Sie; Unterschiede nach Zielgruppe ergänzen] |
 | Schreibweisen | Die drei oben genannten Namensformen sind erlaubt; „Bröckel“ mit Umlaut schreiben. [Weitere Abkürzungen bei Bedarf ergänzen] |
 
-## Logo
+## Wappen, Logo und Favicons
 
-**Standardlogo der Ortswehr:** Das unten abgebildete Wappen ist das de facto Logo der Feuerwehr Bröckel. Die bereitgestellte PNG-Datei ist unverändert hinterlegt.
+**Wappen der Ortswehr:** Das bisher als Standardlogo bezeichnete Motiv ist das Wappen der Ortswehr Bröckel. Es wird unter anderem in den internen Ankündigungen verwendet. Daneben gibt es ein eigenständiges Logo für digitale Anwendungen, wie im öffentlichen Laternenumzug-Beispiel.
 
 | Variante | Datei / Vorschau | Verwendung |
 | --- | --- | --- |
-| Standardlogo der Ortswehr | [PNG-Datei](assets/corporate-identity/logos/of-broeckel-wappen.png) – Vorschau unten | De facto Logo der Feuerwehr Bröckel. [Hintergründe und Anwendungsfälle ergänzen] |
-| Logo für dunkle Hintergründe | [Link und Vorschau ergänzen oder „nicht vorhanden“] | [Verwendung ergänzen] |
+| Wappen der Ortswehr | [PNG-Datei](assets/corporate-identity/logos/of-broeckel-wappen.png) – Vorschau unten | Wappen, unter anderem für interne Ankündigungen |
+| Digitales Logo auf Weiß | [SVG-Datei](assets/corporate-identity/logos/of-broeckel-logo.svg) – Vorschau unten | Logo in der Primärfarbe #DB1818 auf weißer Fläche |
+| Digitales Logo auf Rot | [SVG-Datei](assets/corporate-identity/logos/of-broeckel-logo-on-red.svg) – Vorschau unten | Weiße Darstellung auf einer Fläche in der Primärfarbe #DB1818 |
+| Digitales Logo auf Grau | [SVG-Datei](assets/corporate-identity/logos/of-broeckel-logo-on-grey.svg) – Vorschau unten | Weiße Darstellung auf einer grauen Fläche (#7A7A7A) |
 | Einfarbige Variante | [Link und Vorschau ergänzen oder „nicht vorhanden“] | [Verwendung ergänzen] |
 | Vereinslogo / weitere Abteilungen | [Link und Vorschau ergänzen oder „nicht vorhanden“] | [Zuordnung ergänzen] |
 | Wappen der Samtgemeinde Flotwedel | [SVG-Datei](assets/corporate-identity/logos/flotwedel-wappen.svg) – Vorschau unten | [Einsatz in Beiträgen der Feuerwehr und Kombination mit dem Feuerwehrlogo festlegen] |
@@ -51,13 +53,39 @@ Diese Seite beschreibt das Erscheinungsbild und die Kommunikation der **Feuerweh
 | Favicon inverse | [SVG-Datei](assets/corporate-identity/logos/favicon_inverse.svg) – Vorschau unten | Weiße Buchstaben „FB“ mit weißem Rahmen auf roter Fläche (#DB1818) |
 | Favicon weiß | [SVG-Datei](assets/corporate-identity/logos/favicon_white.svg) – Vorschau unten | Weiße Buchstaben „FB“ mit weißem Rahmen und transparentem Hintergrund; auf kontrastierendem Hintergrund einsetzen |
 
-### Standardlogo der Ortswehr Bröckel
+### Wappen der Ortswehr Bröckel
 
-![Standardlogo der Feuerwehr Bröckel mit der Aufschrift „Freiw. Feuerwehr Flotwedel“, „Ortsfeuerwehr Bröckel“ und der Jahreszahl 1935](assets/corporate-identity/logos/of-broeckel-wappen.png){ width="300" }
+![Wappen der Ortswehr Bröckel mit der Aufschrift „Freiw. Feuerwehr Flotwedel“, „Ortsfeuerwehr Bröckel“ und der Jahreszahl 1935](assets/corporate-identity/logos/of-broeckel-wappen.png){ width="300" }
 
 [Originaldatei herunterladen (PNG)](assets/corporate-identity/logos/of-broeckel-wappen.png)
 
-Die Beschriftung ist Bestandteil des Logos und bleibt unverändert. Für Texte außerhalb des Logos gelten die oben aufgeführten erlaubten Namensformen. Das Wappen der Gemeinde und das Wappen der Samtgemeinde sind zusätzliche Referenzen; sie ersetzen das Standardlogo der Ortswehr nicht.
+Die Beschriftung ist Bestandteil des Wappens und bleibt unverändert. Für Texte außerhalb des Wappens gelten die oben aufgeführten erlaubten Namensformen. Das Wappen der Gemeinde und das Wappen der Samtgemeinde sind zusätzliche Referenzen; sie ersetzen das Wappen der Ortswehr nicht.
+
+### Logo für digitale Anwendungen
+
+Das Logo verwendet die Wortgestaltung **„FEUERWEHR BRÖCKEL“** mit einem Rahmen um „FEUERWEHR“. Die festgelegte Schrift ist **Open Sans Extra Bold**, die Primärfarbe **#DB1818**. Die Absenderdarstellung im öffentlichen Laternenumzug-Plakat zeigt dieses Gestaltungsmuster.
+
+Die drei bereitgestellten SVG-Dateien sind unverändert hinterlegt. Sie haben jeweils eine Zeichenfläche von 762 × 196 und enthalten die jeweilige Hintergrundfläche. Die Buchstaben sind als Pfade enthalten; zur Darstellung der SVG-Dateien muss die Schrift nicht zusätzlich installiert werden. Das Logo aus der Originaldatei einsetzen, statt den Schriftzug neu zu setzen.
+
+**Primärfarbe auf Weiß:**
+
+![Digitales Logo der Feuerwehr Bröckel in Rot auf weißer Fläche](assets/corporate-identity/logos/of-broeckel-logo.svg){ width="480" }
+
+[Originaldatei herunterladen (SVG)](assets/corporate-identity/logos/of-broeckel-logo.svg)
+
+**Weiß auf Primärfarbe:**
+
+![Digitales Logo der Feuerwehr Bröckel in Weiß auf roter Fläche](assets/corporate-identity/logos/of-broeckel-logo-on-red.svg){ width="480" }
+
+[Originaldatei herunterladen (SVG)](assets/corporate-identity/logos/of-broeckel-logo-on-red.svg)
+
+**Weiß auf Grau:**
+
+![Digitales Logo der Feuerwehr Bröckel in Weiß auf grauer Fläche](assets/corporate-identity/logos/of-broeckel-logo-on-grey.svg){ width="480" }
+
+[Originaldatei herunterladen (SVG)](assets/corporate-identity/logos/of-broeckel-logo-on-grey.svg)
+
+Die graue Fläche #7A7A7A (RGB 122, 122, 122) ist Bestandteil dieser Logovariante; daraus folgt keine Festlegung als allgemeine Sekundärfarbe. Die Logo-Schrift legt auch nicht automatisch die Schrift aller Veranstaltungstitel fest. Genaue Positionen, Schutzräume und Einsatzregeln außerhalb der gezeigten Anwendungen bleiben zu ergänzen.
 
 ### Wappen der Samtgemeinde Flotwedel
 
@@ -97,7 +125,7 @@ Die rote Fläche hinter der weißen Vorschau dient nur der Sichtbarkeit auf dies
 
 Die folgenden Regeln sind Vorschläge zur Freigabe:
 
-- Nur die freigegebene Originaldatei verwenden. Das Logo nicht nachzeichnen, durch ein ähnliches Symbol ersetzen oder von einer Bild-KI neu erfinden lassen.
+- Nur die freigegebene Originaldatei verwenden. Logo und Wappen nicht nachzeichnen, durch ein ähnliches Symbol ersetzen oder von einer Bild-KI neu erfinden lassen.
 - Seitenverhältnis beibehalten; nicht verzerren, beschneiden oder drehen.
 - Farben und Bestandteile nicht verändern. Keine zusätzlichen Schatten, Konturen oder Effekte hinzufügen.
 - Ausreichenden Kontrast zum Hintergrund sicherstellen.
@@ -126,7 +154,7 @@ Hier ausschließlich die tatsächlich festgelegten Farbwerte eintragen. Bildschi
 
 **Nicht zulässig:** [Farben, Kombinationen oder Verläufe ergänzen]
 
-**Interne Ankündigungen:** Weißer Hintergrund (`#FFFFFF`, RGB `255, 255, 255`) ist festgelegt. Im bereitgestellten Beispiel ist der Text schwarz; `#000000` (RGB `0, 0, 0`) dient als aus dem Beispiel abgeleiteter Arbeitswert. Die Farben des Originallogos bleiben erhalten. Diese Festlegung gilt für interne Ankündigungen; neben der bestätigten Primärfarbe bleiben die weiteren Farben der allgemeinen Palette offen.
+**Interne Ankündigungen:** Weißer Hintergrund (`#FFFFFF`, RGB `255, 255, 255`) ist festgelegt. Im bereitgestellten Beispiel ist der Text schwarz; `#000000` (RGB `0, 0, 0`) dient als aus dem Beispiel abgeleiteter Arbeitswert. Die Farben des Originalwappens bleiben erhalten. Diese Festlegung gilt für interne Ankündigungen; neben der bestätigten Primärfarbe bleiben die weiteren Farben der allgemeinen Palette offen.
 
 ## Schriftarten
 
@@ -134,6 +162,7 @@ Hier ausschließlich die tatsächlich festgelegten Farbwerte eintragen. Bildschi
 
 | Verwendung | Schriftfamilie | Schnitt / Gewicht | Datei oder Bezugsquelle |
 | --- | --- | --- | --- |
+| Digitales Logo | Open Sans | Extra Bold | Original-SVG-Dateien im Abschnitt „Logo für digitale Anwendungen“; [Fontdatei oder Bezugsquelle bei Bedarf ergänzen] |
 | Überschriften | [Exakter Fontname] | [z. B. Bold / 700] | [Link ergänzen] |
 | Fließtext | [Exakter Fontname] | [z. B. Regular / 400] | [Link ergänzen] |
 | Datum, Uhrzeit und Hervorhebungen | [Exakter Fontname] | [Schnitt ergänzen] | [Link ergänzen] |
@@ -170,14 +199,14 @@ Dieses Muster wird für Veranstaltungen verwendet, die die Feuerwehr ausrichtet,
 | Element | Beobachtete Gestaltung |
 | --- | --- |
 | Format | Quadrat; bereitgestelltes Beispiel mit 1080 × 1080 px |
-| Logo | Originalwappen oben links, mit Abstand zu oberem und linkem Rand; ungefähr ein Fünftel der Bildhöhe |
-| Veranstaltungstitel | Groß und fett, rechts neben dem Logo im oberen Bereich; Veranstaltungsname und Jahr in einer Zeile |
-| Datum | Unter dem Titel, innerhalb des Bereichs rechts vom Logo zentriert; Roboto Thin; Muster „Wochentag, TT.MM.JJJJ“ |
+| Wappen | Originalwappen oben links, mit Abstand zu oberem und linkem Rand; ungefähr ein Fünftel der Bildhöhe |
+| Veranstaltungstitel | Groß und fett, rechts neben dem Wappen im oberen Bereich; Veranstaltungsname und Jahr in einer Zeile |
+| Datum | Unter dem Titel, innerhalb des Bereichs rechts vom Wappen zentriert; Roboto Thin; Muster „Wochentag, TT.MM.JJJJ“ |
 | Tagesüberschriften | Über die gesamte Bildbreite zentriert, fett und kursiv; z. B. „Freitag“ und „Samstag“ |
 | Tätigkeiten | Links ausgerichtet, große leichte Schrift; z. B. „Aufbau“, „Beginn Laternenumzug“, „Abbau“ |
 | Uhrzeiten | Rechtsbündig in einer gemeinsamen Spalte, auf derselben Grundlinie wie die Tätigkeit; Muster „HH:MM Uhr“ |
 | Abstände | Viel Weißraum zwischen Kopfbereich und Ablauf sowie zwischen den Tagesblöcken; großzügige Außenränder |
-| Weitere Gestaltung | Im Beispiel ausschließlich Logo und Text; keine zusätzlichen Fotos, Rahmen oder Schmuckelemente |
+| Weitere Gestaltung | Im Beispiel ausschließlich Wappen und Text; keine zusätzlichen Fotos, Rahmen oder Schmuckelemente |
 
 Für den Titel ist ein fetter Roboto-Schnitt, für Tagesüberschriften ein fetter kursiver Schnitt erkennbar. Ob konkret Bold oder Black verwendet wurde und welcher leichte Schnitt für Tätigkeiten und Uhrzeiten gilt, lässt sich aus dem Bild nicht sicher bestimmen. Diese Details sowie genaue Schriftgrößen und Abstände sind noch zu ergänzen.
 
@@ -187,20 +216,20 @@ Für den Titel ist ein fetter Roboto-Schnitt, für Tagesüberschriften ein fette
 
 ### Varianten des internen Layouts
 
-Die weiteren Beispiele bestätigen den gemeinsamen Kopfbereich mit Logo oben links, fettem Titel und dünn gesetztem Datum. Der Inhaltsbereich richtet sich nach der Art der Information. Die folgenden Details sind aus den Bildern abgeleitet; exakte Schriftgrößen, Gewichte und Grauwerte bleiben offen.
+Die weiteren Beispiele bestätigen den gemeinsamen Kopfbereich mit Wappen oben links, fettem Titel und dünn gesetztem Datum. Der Inhaltsbereich richtet sich nach der Art der Information. Die folgenden Details sind aus den Bildern abgeleitet; exakte Schriftgrößen, Gewichte und Grauwerte bleiben offen.
 
 | Variante | Gliederung und Ausrichtung | Beispiel |
 | --- | --- | --- |
 | Ablauf nach Tagen | Tagesüberschrift zentriert, fett und kursiv; darunter Tätigkeit links und Uhrzeit rechts | Laternenumzug; Osterfeuer mit Aufbau, Treffen, Beginn / Entzündung und Abbau |
 | Aufbau und Abbau | Abschnittsüberschriften „Aufbau“ und „Abbau“ zentriert, fett und kursiv; darunter Wochentag links, Uhrzeit in einer mittleren Spalte und optional Ort oder Tätigkeit in einer dritten Spalte | Oktoberfest; Scheunenfete |
 | Anfuhrtermine | Abschnittsüberschrift zentriert, fett und kursiv; links Wochentag mit Datum in Klammern, rechts Zeitspanne; Beginn separat groß, fett und zentriert im unteren Bereich | Osterfeuer: Anfuhrtermine |
-| Allgemeine interne Mitteilung | Mehrzeiliger, linksbündiger Titel rechts neben dem Logo; darunter Zeitraum und erklärender Text; wichtige Angaben fett hervorheben | Abmeldung über Schützenfest |
+| Allgemeine interne Mitteilung | Mehrzeiliger, linksbündiger Titel rechts neben dem Wappen; darunter Zeitraum und erklärender Text; wichtige Angaben fett hervorheben | Abmeldung über Schützenfest |
 
 **Spalten:** Innerhalb eines Abschnitts gemeinsame Spaltenpositionen und Grundlinien verwenden. Die zweispaltige Variante hat rechtsbündige Uhrzeiten. In der dreispaltigen Variante stehen Uhrzeiten in einer eigenen mittleren Spalte; Ort oder Zusatzinformation folgen rechts. Tabellenlinien sind in den Beispielen nicht vorhanden.
 
 **Hinweise:** Im Oktoberfest-Beispiel ist „unter Vorbehalt“ grau und kursiv gesetzt. Im Scheunenfete-Beispiel ist die komplette Zeile „Donnerstag – 18:00 Uhr – Halle reinigen“ grau gesetzt, ohne erkennbare Kursivierung. Grau kennzeichnet hier eine visuelle Abstufung; aus dem Bild allein lässt sich für die Scheunenfete kein besonderer Verbindlichkeitsstatus ableiten. Hinweise immer ausdrücklich benennen, statt ihre Bedeutung allein durch Farbe auszudrücken.
 
-**Titel und Datum:** Lange Titel dürfen rechts neben dem Logo über mehrere Zeilen laufen. Bei allgemeinen Mitteilungen kann die Datumszeile entfallen und der Zeitraum im Inhalt stehen. Die Beispiele verwenden sowohl zwei- als auch vierstellige Jahreszahlen und unterschiedliche Kommasetzung beim Datum; eine verbindliche einheitliche Schreibweise ist noch festzulegen.
+**Titel und Datum:** Lange Titel dürfen rechts neben dem Wappen über mehrere Zeilen laufen. Bei allgemeinen Mitteilungen kann die Datumszeile entfallen und der Zeitraum im Inhalt stehen. Die Beispiele verwenden sowohl zwei- als auch vierstellige Jahreszahlen und unterschiedliche Kommasetzung beim Datum; eine verbindliche einheitliche Schreibweise ist noch festzulegen.
 
 **Längere Mitteilungen:** Zeitraum mit „Von:“ und „Bis:“ links und fett gesetzten Datums- und Zeitangaben daneben darstellen. Erklärungstext linksbündig setzen, zentrale Wörter gezielt fett hervorheben. Einen zusätzlichen Hinweis mit fettem „Hinweis:“ einleiten. Diese Variante ergänzt die Terminübersichten innerhalb derselben Gestaltung.
 
@@ -242,7 +271,7 @@ Die Beispiele zeigen unterschiedliche Ansätze je Veranstaltung. Ein bildfüllen
 | Informationen | Linksbündige Zeilen mit einheitlicher Textkante und einer eigenen Spalte für Kontursymbole: Uhr, Ortsmarkierung und Information | Unter dem Motiv zwei Spalten für Anfuhrtermine sowie Essen und Trinken; Veranstalterzeile darunter |
 | Typografische Abstufung | Fetter Titel und Haupttermin; Details in leichterem Schnitt; mehrzeilige Zusatzinformationen | Fetter Titel, leichterer Schnitt für Datum und Ort; im unteren Bereich sichtbar monospaced gesetzte Details und kleine Überschriften in Großbuchstaben |
 | Trennung / Effekte | Großzügige Abstände, schlichte Kontursymbole; keine fotografische Szene und kein sichtbarer Leuchteffekt | Helle horizontale Trennlinien zwischen Motiv und Farbflächen; gepunktete Trennung der unteren Informationsbereiche |
-| Feuerwehrwappen | Kein separates Wappen sichtbar; die Wortgestaltung ist eine beobachtete Absenderdarstellung, keine bestätigte alternative Logodatei | Kein separates Wappen sichtbar |
+| Logo / Wappen | Digitales Logo als rote Wortgestaltung sichtbar; kein separates Wappen | Kein separates Logo oder Wappen sichtbar |
 
 **Laternenumzug:** Die Mond- und Sternsymbole vermitteln eine abendliche Stimmung. Die Informationsliste beschreibt Termin, Treffpunkt, musikalische Begleitung und Verpflegung. Mehrzeilige Angaben bleiben an derselben Textkante ausgerichtet; die Symbole stehen separat links. Der vollständige Termin in der Liste muss mit dem hervorgehobenen Kurztermin übereinstimmen.
 
@@ -334,12 +363,12 @@ Das Beispiel nennt „Samstag, 04.04.2026 ab 18:30 Uhr“, „Auf der Westerheid
 
 ### Interne Veranstaltungsankündigung: Laternenumzug
 
-![Interne Ankündigung Laternenumzug 2025: Logo oben links, Titel und Datum rechts daneben sowie Tagesblöcke für Aufbau, Beginn und Abbau](assets/corporate-identity/examples/Laternenumzug_2025_Aufbau_Abbau.png){ width="480" loading=lazy }
+![Interne Ankündigung Laternenumzug 2025: Wappen oben links, Titel und Datum rechts daneben sowie Tagesblöcke für Aufbau, Beginn und Abbau](assets/corporate-identity/examples/Laternenumzug_2025_Aufbau_Abbau.png){ width="480" loading=lazy }
 
 [Originalbild herunterladen (PNG)](assets/corporate-identity/examples/Laternenumzug_2025_Aufbau_Abbau.png)
 
 - **Status:** Bestehendes Gestaltungsbeispiel; Interpretation im Abschnitt „Interne Veranstaltungsankündigungen“. Weißer Hintergrund, Roboto und Roboto Thin für das Datum sind bestätigt.
-- **Übernehmen:** Logo oben links, Titel und Datum im Kopfbereich, zentrierte Tagesüberschriften und Ablauf mit Tätigkeiten links und Uhrzeiten rechts.
+- **Übernehmen:** Wappen oben links, Titel und Datum im Kopfbereich, zentrierte Tagesüberschriften und Ablauf mit Tätigkeiten links und Uhrzeiten rechts.
 - **Anpassen:** Veranstaltungsname, Jahr, Datum, Wochentage, Tätigkeiten und Uhrzeiten.
 
 Im Beispiel stehen am Freitag „Aufbau – 16:30 Uhr“ und „Beginn Laternenumzug – 18:30 Uhr“, am Samstag „Abbau – 10:00 Uhr“. Diese Angaben dokumentieren ausschließlich das Beispiel aus 2025.
@@ -406,7 +435,7 @@ Den folgenden Text kopieren und die Angaben in eckigen Klammern ersetzen. Die ö
 Erstelle einen Bildentwurf für die Feuerwehr Bröckel.
 
 Gestaltungsrichtlinien: [Öffentliche URL dieser Seite]
-Originallogo: [Direkter Link zur freigegebenen Datei oder beigefügte Datei]
+Logo / Wappen: [Passende Originaldatei angeben: digitales Logo oder Ortswehrwappen]
 Referenzbilder: [Direkte Links oder beigefügte Bilder]
 
 Lies die Gestaltungsrichtlinien und orientiere dich an den dort
@@ -443,7 +472,7 @@ Layoutvariante: [Ablauf nach Tagen / Aufbau und Abbau / Anfuhrtermine]
 Ablauf: [Je Eintrag Datum/Wochentag, Tätigkeit, Uhrzeit oder Zeitspanne,
 ggf. Ort und ausdrücklichen Hinweis angeben]
 Verwende das dokumentierte interne Layout mit weißem Hintergrund,
-Roboto, Datum in Roboto Thin und Logo oben links. Verwende gemeinsame
+Roboto, Datum in Roboto Thin und Ortswehrwappen oben links. Verwende gemeinsame
 Spalten und Grundlinien entsprechend der gewählten Layoutvariante.
 Bei allgemeinen internen Mitteilungen:
 Zeitraum: [Geprüfter Beginn und geprüftes Ende oder entfällt]
@@ -456,9 +485,11 @@ Erfinde keine Veranstaltungsdetails. Übernimm vorgegebene Texte exakt.
 Prüfe Datumsangaben, zugehörige Wochentage und die Reihenfolge von
 Beginn und Ende. Frage bei Widersprüchen nach; korrigiere sie nicht
 eigenständig und übernimm keine historischen Termine aus Referenzbildern.
-Verwende das Originallogo unverändert. Falls du es nicht exakt
-einsetzen kannst, lasse die vorgesehene Fläche frei und weise darauf hin,
-dass das Logo anschließend aus der Originaldatei eingefügt werden muss.
+Verwende die gewählte Logo- oder Wappendatei unverändert. Für interne
+Ankündigungen verwende das Ortswehrwappen; für die digitale
+Absenderdarstellung das passende digitale Logo. Falls du die Datei nicht
+exakt einsetzen kannst, lasse die vorgesehene Fläche frei und weise
+darauf hin, dass sie anschließend aus der Originaldatei einzufügen ist.
 Weise auch darauf hin, falls die vorgegebene Schrift oder die Texte
 nicht exakt umgesetzt werden konnten.
 ```
@@ -477,9 +508,9 @@ docs/assets/corporate-identity/
 Nach dem Hinzufügen einer Datei hier die Vorschau und einen Download-Link eintragen. Beispiel für ein Logo (erst einsetzen, wenn die Datei vorhanden ist):
 
 ```markdown
-![Standardlogo der Feuerwehr Bröckel](assets/corporate-identity/logos/logo-standard.png)
+![Digitales Logo der Feuerwehr Bröckel](assets/corporate-identity/logos/of-broeckel-logo.svg)
 
-[Originallogo herunterladen](assets/corporate-identity/logos/logo-standard.png)
+[Originallogo herunterladen](assets/corporate-identity/logos/of-broeckel-logo.svg)
 ```
 
 Für Beispiele dasselbe Muster mit einem Pfad wie `assets/corporate-identity/examples/veranstaltung.png` verwenden. Aussagekräftige Bildbeschreibungen ergänzen und die gewünschten Gestaltungsmerkmale zusätzlich im Text erklären.
